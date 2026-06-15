@@ -1,0 +1,20 @@
+PATH=".;C:/Users/kdy/anaconda3/envs/jekyllmm/lib;C:\Users\kdy\anaconda3\envs\jekyllmm\share\rubygems\bin;C:\Users\kdy\anaconda3\envs\jekyllmm;C:\Users\kdy\anaconda3\envs\jekyllmm\Library\mingw-w64\bin;C:\Users\kdy\anaconda3\envs\jekyllmm\Library\usr\bin;C:\Users\kdy\anaconda3\envs\jekyllmm\Library\bin;C:\Users\kdy\anaconda3\envs\jekyllmm\Scripts;C:\Users\kdy\anaconda3\envs\jekyllmm\bin;D:\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;D:\Git\cmd;C:\Users\kdy\AppData\Local\Microsoft\WindowsApps;.;C:\Users\kdy\anaconda3\Scripts;C:\Users\kdy\anaconda3\condabin" "cl.exe -nologo -Feconftest -IC:/Users/kdy/anaconda3/envs/jekyllmm/include/ruby-3.3.0/x64-mswin64_140 -IC:/Users/kdy/anaconda3/envs/jekyllmm/include/ruby-3.3.0/ruby/backward -IC:/Users/kdy/anaconda3/envs/jekyllmm/include/ruby-3.3.0 -I. -IC:/Users/kdy/anaconda3/envs/jekyllmm/include/ruby-3.3.0  -D_WIN32_WINNT=0x0600   -MD -Zi -W2 -wd4100 -wd4127 -wd4210 -wd4214 -wd4255 -wd4574  -wd4668 -wd4710 -wd4711 -wd4820 -wd4996  -we4028 -we4142 -we4047 -O2sy- -Zm600  conftest.c   x64-vcruntime140-ruby330.lib  user32.lib  -link -incremental:no -debug -opt:ref -opt:icf   -libpath:. -libpath:C:/Users/kdy/anaconda3/envs/jekyllmm/lib "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #ifndef WIN32_LEAN_AND_MEAN
+ 4: #define WIN32_LEAN_AND_MEAN
+ 5: #endif /* WIN32_LEAN_AND_MEAN */
+ 6: #ifndef WIN32
+ 7: #define WIN32
+ 8: #endif /* WIN32 */
+ 9: #include <winsock2.h>
+10: #include <ws2tcpip.h>
+11: #include <windows.h>
+12: int main(int argc, char **argv)
+13: {
+14:   return !!argv[argc];
+15: }
+/* end */
+

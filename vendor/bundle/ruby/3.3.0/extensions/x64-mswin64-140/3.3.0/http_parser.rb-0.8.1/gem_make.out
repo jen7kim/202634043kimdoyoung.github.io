@@ -1,0 +1,9 @@
+current directory: D:/Git/202634043kimdoyoung.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+C:/Users/kdy/anaconda3/envs/jekyllmm/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/Git/202634043kimdoyoung.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+nmake sitearchdir\=./.gem.20260616-144-qszf7m sitelibdir\=./.gem.20260616-144-qszf7m clean
+current directory: D:/Git/202634043kimdoyoung.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+nmake sitearchdir\=./.gem.20260616-144-qszf7m sitelibdir\=./.gem.20260616-144-qszf7m
+make failedNo such file or directory - nmake
